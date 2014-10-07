@@ -4,6 +4,7 @@
 sqlite> create table story(id integer primary key autoincrement, body varchar(32), end datetime, status int);
 ```
 確認コマンド**select * from story;**
+sqliteから抜けるコマンド**.q**
 ##データの追加をしてみましょう
 ```Bash
 sqlite> insert into story(body, end, status) values('sample', '2014-09-30 17:15:00', 1);
