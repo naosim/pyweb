@@ -3,7 +3,7 @@
 > sqlite3 todo.db
 sqlite> create table story(id integer primary key autoincrement, body varchar(32), end datetime, status int);
 ```
-確認コマンド**select * from story;**
+確認コマンド**select * from story;** 
 sqliteから抜けるコマンド**.q**
 ##データの追加をしてみましょう
 ```Bash
